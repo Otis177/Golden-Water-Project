@@ -11,7 +11,6 @@ The overall goal is to create a scientifically rigorous framework that validates
 Golden-Water-Project/
 
 │
-
 ├── codebase 2/                        # Main modeling pipeline
 
 │   ├── main_2.py                      # Entry point — orchestrates the full pipeline
