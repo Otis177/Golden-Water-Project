@@ -12,7 +12,6 @@ Golden-Water-Project/
 
 │
 ├── codebase 2/                        # Main modeling pipeline
-
 │   ├── main_2.py                      # Entry point — orchestrates the full pipeline
 │   ├── bootstrap_2.py                 # Bootstrap resampling loop
 │   ├── CSV_file_merger_2.py           # Data loading, cleaning, and feature engineering
