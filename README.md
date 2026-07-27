@@ -11,44 +11,83 @@ The overall goal is to create a scientifically rigorous framework that validates
 Golden-Water-Project/
 
 │
+
 ├── codebase 2/                        # Main modeling pipeline
+
 │   ├── main_2.py                      # Entry point — orchestrates the full pipeline
+
 │   ├── bootstrap_2.py                 # Bootstrap resampling loop
+
 │   ├── CSV_file_merger_2.py           # Data loading, cleaning, and feature engineering
+
 │   ├── ridge_regression_2.py          # Ridge regression model definition
+
 │   ├── lasso_regression_2.py          # Lasso regression model definition
+
 │   ├── data_plotter_2.py              # Skill boxplot and comparison plot functions
+
 │   ├── find_best_alpha.py             # Alpha tuning analysis for Ridge and Lasso
+
 │   ├── catigorize_years.py            # Wet/dry/normal year classification
+
 │   ├── year_type_comparer.py          # Bar chart comparing model skill by year type
+
 │   └── plot_daily_diversions.py       # Average daily diversion curve plot
+
 │
+
 ├── data/                              # Input data files
+
 │   ├── daily_diversions_2001-2024.csv # Daily water diversion measurements from Golden
+
 │   ├── pr_weekly_resampled.csv        # Weekly precipitation (GridMET)
+
 │   ├── pet_weekly_resampled.csv       # Weekly potential evapotranspiration (GridMET)
+
 │   ├── vpd_weekly_resampled.csv       # Weekly vapor pressure deficit (GridMET)
+
 │   ├── tmmx_weekly_resampled.csv      # Weekly maximum temperature (GridMET)
+
 │   └── sector_monthly_use_long.csv    # Monthly water use by customer sector
+
 │
+
 ├── Find best alpha/                   # Alpha tuning outputs
+
 │   ├── Ridge_Regression/              # Ridge alpha analysis graphs and best values CSV
+
 │   └── Lasso_Regression/              # Lasso alpha analysis graphs and best values CSV
+
 │
+
 ├── Output data/                       # All model outputs
+
 │   ├── Ridge/                         # Ridge regression results and graphs
+
 │   ├── Lasso/                         # Lasso regression results and graphs
+
 │   ├── BestRidge/                     # Best-alpha Ridge results by year type
+
 │   ├── BestLasso/                     # Best-alpha Lasso results by year type
+
 │   ├── MLR/                           # Multiple linear regression results and graphs
+
 │   └── *.png                          # Combined comparison plots
+
 │
+
 ├── eximplifying differences in models/ # Visualizations explaining model differences
+
 │   ├── use_by_sector_visualization.py  # Monthly water use by sector
+
 │   └── ridge_regression_visualization.py # Ridge vs MLR visual explainer
+
 │
+
 ├── RandomForestModel.py               # Mentor's original Random Forest implementation
+
 ├── GoldenDataAnalysisFunctions.py     # Mentor's original data processing functions
+
 └── README.md                          # This file
 
 **SETUP AND INSTALLATION**
