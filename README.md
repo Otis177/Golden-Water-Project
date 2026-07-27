@@ -6,6 +6,8 @@ This project builds and compares three statistical models, Multiple Linear Regre
 
 The overall goal is to create a scientifically rigorous framework that validates whether Golden's 2019 water conservation measures actually reduced demand beyond what weather conditions alone would predict, and to deliver a model Golden can use operationally for years to come. The code in this repo specifically focuses on comparing statistical model types to determine which is optimal for the final model. Additional supporting code such as visualizations explaining model differences and a look at how different sectors use water month by month can be found in the eximplifying differences in models folder.
 
+---
+
 **REPOSITORY STRUCTURE**
 
 Golden-Water-Project/
@@ -89,6 +91,8 @@ Golden-Water-Project/
 ├── GoldenDataAnalysisFunctions.py     # Mentor's original data processing functions
 
 └── README.md                          # This file
+
+---
 
 **SETUP AND INSTALLATION**
 
